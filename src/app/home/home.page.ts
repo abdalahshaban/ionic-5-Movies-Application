@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor() { }
+
+  options = {
+    centeredSlides: true,
+    loop: true,
+    spaceBetween: -100,
+  }
 
 }
